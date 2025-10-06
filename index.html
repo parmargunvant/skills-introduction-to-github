@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunvant Parmar | Digital Craftsman &amp; Problem Solver</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #f8fafc;
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card {
+            background: linear-gradient(135deg, #1e1e1e 0%, #111111 100%);
+            border: 1px solid #333;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+        }
+        .skill-tag {
+            background-color: #1e293b;
+            color: #38bdf8;
+            border: 1px solid #334155;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-50 backdrop-blur-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gradient">GP</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-slate-300 hover:text-sky-400 transition-colors">About</a>
+                <a href="#services" class="text-slate-300 hover:text-sky-400 transition-colors">Services</a>
+                <a href="#portfolio" class="text-slate-300 hover:text-sky-400 transition-colors">Portfolio</a>
+                <a href="#contact" class="text-slate-300 hover:text-sky-400 transition-colors">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-semibold px-4 py-2 rounded-lg transition-transform transform hover:scale-105">Hire Me</a>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section id="home" class="container mx-auto px-6 py-20 md:py-32 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-black mb-4 leading-tight">
+                    <span class="text-slate-100">Beyond Freelancing:</span><br>
+                    <span class="text-gradient">Your Dedicated Partner in Problem Solving.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mt-6 mb-10">
+                    I don't just complete tasks. I invest myself in your vision, applying relentless dedication and a versatile skill set to overcome any challenge and deliver exceptional results.
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#portfolio" class="bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105 shadow-lg">View My Work</a>
+                    <a href="#contact" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">Let's Talk</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-20 bg-[#111111]">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://placehold.co/600x600/1e1e1e/38bdf8?text=Gunvant+P" alt="Gunvant Parmar" class="rounded-2xl shadow-2xl w-full max-w-md mx-auto">
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4 text-slate-100">Hi, I'm <span class="text-sky-400">Gunvant Parmar</span>.</h2>
+                        <p class="text-slate-400 mb-4">
+                            I'm a passionate and driven Bachelor of Computer Applications (BCA) student with a singular goal: to build things that matter. My academic journey has given me a strong foundation in technology, but my true strength lies in my work ethic. I thrive on challenges and I'm committed to going the extra mile.
+                        </p>
+                        <p class="text-slate-400 mb-6">
+                            For me, this isn't just about earning. It's about contributing, learning, and pushing the boundaries of what's possible. Whether it's a small task or a large-scale project, I bring the same level of intensity and dedication. I am ready to invest my time and energy to help you achieve your goals.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="p-4 bg-gray-800 rounded-lg flex-1 text-center">
+                                <span class="text-2xl font-bold text-sky-400 block">BCA Student</span>
+                                <span class="text-sm text-slate-400">2025-2027</span>
+                            </div>
+                            <div class="p-4 bg-gray-800 rounded-lg flex-1 text-center">
+                                <span class="text-2xl font-bold text-sky-400 block">7.64 CGPA</span>
+                                <span class="text-sm text-slate-400">First Year</span>
+                            </div>
+                            <div class="p-4 bg-gray-800 rounded-lg flex-1 text-center">
+                                <span class="text-2xl font-bold text-sky-400 block">100%</span>
+                                <span class="text-sm text-slate-400">Commitment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services / What I Offer -->
+        <section id="services" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-2 text-slate-100">What I Bring to the Table</h2>
+                <p class="text-slate-400 mb-12 max-w-2xl mx-auto">I offer more than just code. I offer a partnership built on a promise of hard work and versatility.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Service Card 1 -->
+                    <div class="card p-8 rounded-2xl text-left">
+                        <h3 class="text-xl font-bold mb-3 text-sky-400">Web Development</h3>
+                        <p class="text-slate-400">Crafting responsive and user-friendly websites using modern technologies. From simple landing pages to more complex web applications.</p>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="card p-8 rounded-2xl text-left">
+                        <h3 class="text-xl font-bold mb-3 text-sky-400">Technical Problem Solving</h3>
+                        <p class="text-slate-400">Equipped with strong analytical skills, I can dive into technical issues, debug code, and find efficient solutions to complex problems.</p>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="card p-8 rounded-2xl text-left">
+                        <h3 class="text-xl font-bold mb-3 text-sky-400">Unwavering Dedication</h3>
+                        <p class="text-slate-400">My core offer. I will dedicate myself fully to your project's success. I am available, responsive, and ready to do whatever it takes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-20 bg-[#111111]">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-2 text-slate-100">My Work &amp; Potential</h2>
+                <p class="text-slate-400 mb-12 max-w-2xl mx-auto">Here are some examples of projects I can build. Let's create something amazing together.</p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="card rounded-2xl overflow-hidden">
+                        <img src="https://placehold.co/600x400/1e1e1e/38bdf8?text=Project+One" alt="Project One" class="w-full h-48 object-cover">
+                        <div class="p-6 text-left">
+                            <h3 class="text-xl font-bold mb-2 text-slate-100">E-Commerce Website</h3>
+                            <p class="text-slate-400 mb-4">A placeholder for a fully functional online store with product listings, cart, and checkout.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">HTML</span>
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">CSS</span>
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">JavaScript</span>
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">React</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="card rounded-2xl overflow-hidden">
+                        <img src="https://placehold.co/600x400/1e1e1e/6366f1?text=Project+Two" alt="Project Two" class="w-full h-48 object-cover">
+                        <div class="p-6 text-left">
+                            <h3 class="text-xl font-bold mb-2 text-slate-100">Task Management App</h3>
+                            <p class="text-slate-400 mb-4">An application to help users organize their tasks, set deadlines, and track progress.</p>
+                             <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">Python</span>
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">Flask</span>
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="card rounded-2xl overflow-hidden">
+                        <img src="https://placehold.co/600x400/1e1e1e/38bdf8?text=Project+Three" alt="Project Three" class="w-full h-48 object-cover">
+                        <div class="p-6 text-left">
+                            <h3 class="text-xl font-bold mb-2 text-slate-100">Personal Blog Platform</h3>
+                            <p class="text-slate-400 mb-4">A clean, markdown-ready blog platform for writers to share their thoughts with the world.</p>
+                             <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">Node.js</span>
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">Express</span>
+                                <span class="skill-tag text-xs font-semibold px-3 py-1 rounded-full">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4 text-gradient">Ready to build something incredible?</h2>
+                <p class="text-slate-400 mb-8 max-w-2xl mx-auto">I'm currently available for freelance work, project collaborations, or funding opportunities. Let's connect and discuss how my dedication can bring your ideas to life.</p>
+                
+                <div class="max-w-md mx-auto card rounded-2xl p-8">
+                     <p class="text-slate-300 mb-2">Reach out directly:</p>
+                     <a id="emailLink" href="mailto:your-email@example.com" class="text-2xl font-semibold text-sky-400 hover:text-sky-300 transition-colors">
+                        your-email@example.com
+                     </a>
+                     <button id="copyButton" class="ml-2 text-slate-400 hover:text-white" title="Copy email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                          <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+                          <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+                        </svg>
+                     </button>
+                     <p id="copyMessage" class="text-sm text-green-400 mt-2 h-4"></p>
+                </div>
+
+                <div class="mt-10 flex justify-center space-x-6">
+                    <!-- Replace '#' with your actual social media links -->
+                    <a href="#" target="_blank" class="text-slate-400 hover:text-sky-400 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.328 0-1.97.758-2.3-1.287h-.048v1.073H7.646v7.225h2.401z"></path></svg>
+                    </a>
+                    <a href="#" target="_blank" class="text-slate-400 hover:text-sky-400 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                    <a href="#" target="_blank" class="text-slate-400 hover:text-sky-400 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="bg-[#111111] py-8">
+        <div class="container mx-auto px-6 text-center text-slate-500">
+            <p>&amp;copy; 2025 Gunvant Parmar. Built with dedication and a desire to create.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Copy email to clipboard functionality
+        const copyButton = document.getElementById('copyButton');
+        const emailLink = document.getElementById('emailLink');
+        const copyMessage = document.getElementById('copyMessage');
+
+        copyButton.addEventListener('click', () => {
+            const email = emailLink.href.replace('mailto:', '');
+            const tempInput = document.createElement('input');
+            document.body.appendChild(tempInput);
+            tempInput.value = email;
+            tempInput.select();
+            
+            try {
+                // Use execCommand as a fallback
+                document.execCommand('copy');
+                copyMessage.textContent = 'Email copied to clipboard!';
+            } catch (err) {
+                copyMessage.textContent = 'Failed to copy.';
+                console.error('Fallback: Oops, unable to copy', err);
+            }
+
+            document.body.removeChild(tempInput);
+            
+            setTimeout(() => {
+                copyMessage.textContent = '';
+            }, 2000);
+        });
+    </script>
+
+</body>
+</html>
